@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19743CA31A5C0C74009B8845 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 19743CA21A5C0C74009B8845 /* main.m */; };
+		19743CA61A5C0C74009B8845 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 19743CA51A5C0C74009B8845 /* AppDelegate.m */; };
+		19743CA91A5C0C74009B8845 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19743CA81A5C0C74009B8845 /* ViewController.m */; };
+		19743CAC1A5C0C74009B8845 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19743CAA1A5C0C74009B8845 /* Main.storyboard */; };
+		19743CAE1A5C0C74009B8845 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19743CAD1A5C0C74009B8845 /* Images.xcassets */; };
+		19743CB11A5C0C74009B8845 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 19743CAF1A5C0C74009B8845 /* LaunchScreen.xib */; };
+		19743CBD1A5C0C74009B8845 /* WZRippleButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 19743CBC1A5C0C74009B8845 /* WZRippleButtonTests.m */; };
+		19743CC91A5C0DC4009B8845 /* WZFlashButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 19743CC81A5C0DC4009B8845 /* WZFlashButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		19743CB71A5C0C74009B8845 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19743C951A5C0C74009B8845 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19743C9C1A5C0C74009B8845;
+			remoteInfo = WZRippleButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		19743C9D1A5C0C74009B8845 /* WZRippleButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WZRippleButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		19743CA11A5C0C74009B8845 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19743CA21A5C0C74009B8845 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		19743CA41A5C0C74009B8845 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		19743CA51A5C0C74009B8845 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		19743CA71A5C0C74009B8845 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		19743CA81A5C0C74009B8845 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		19743CAB1A5C0C74009B8845 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		19743CAD1A5C0C74009B8845 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		19743CB01A5C0C74009B8845 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		19743CB61A5C0C74009B8845 /* WZRippleButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WZRippleButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		19743CBB1A5C0C74009B8845 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19743CBC1A5C0C74009B8845 /* WZRippleButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WZRippleButtonTests.m; sourceTree = "<group>"; };
+		19743CC71A5C0DC4009B8845 /* WZFlashButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZFlashButton.h; sourceTree = "<group>"; };
+		19743CC81A5C0DC4009B8845 /* WZFlashButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZFlashButton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		19743C9A1A5C0C74009B8845 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19743CB31A5C0C74009B8845 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19743C941A5C0C74009B8845 = {
+			isa = PBXGroup;
+			children = (
+				19743C9F1A5C0C74009B8845 /* WZRippleButton */,
+				19743CB91A5C0C74009B8845 /* WZRippleButtonTests */,
+				19743C9E1A5C0C74009B8845 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		19743C9E1A5C0C74009B8845 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				19743C9D1A5C0C74009B8845 /* WZRippleButton.app */,
+				19743CB61A5C0C74009B8845 /* WZRippleButtonTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		19743C9F1A5C0C74009B8845 /* WZRippleButton */ = {
+			isa = PBXGroup;
+			children = (
+				19743CC61A5C0C7F009B8845 /* WZRippleButton */,
+				19743CA41A5C0C74009B8845 /* AppDelegate.h */,
+				19743CA51A5C0C74009B8845 /* AppDelegate.m */,
+				19743CA71A5C0C74009B8845 /* ViewController.h */,
+				19743CA81A5C0C74009B8845 /* ViewController.m */,
+				19743CAA1A5C0C74009B8845 /* Main.storyboard */,
+				19743CAD1A5C0C74009B8845 /* Images.xcassets */,
+				19743CAF1A5C0C74009B8845 /* LaunchScreen.xib */,
+				19743CA01A5C0C74009B8845 /* Supporting Files */,
+			);
+			path = WZRippleButton;
+			sourceTree = "<group>";
+		};
+		19743CA01A5C0C74009B8845 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				19743CA11A5C0C74009B8845 /* Info.plist */,
+				19743CA21A5C0C74009B8845 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		19743CB91A5C0C74009B8845 /* WZRippleButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				19743CBC1A5C0C74009B8845 /* WZRippleButtonTests.m */,
+				19743CBA1A5C0C74009B8845 /* Supporting Files */,
+			);
+			path = WZRippleButtonTests;
+			sourceTree = "<group>";
+		};
+		19743CBA1A5C0C74009B8845 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				19743CBB1A5C0C74009B8845 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		19743CC61A5C0C7F009B8845 /* WZRippleButton */ = {
+			isa = PBXGroup;
+			children = (
+				19743CC71A5C0DC4009B8845 /* WZFlashButton.h */,
+				19743CC81A5C0DC4009B8845 /* WZFlashButton.m */,
+			);
+			name = WZRippleButton;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		19743C9C1A5C0C74009B8845 /* WZRippleButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19743CC01A5C0C74009B8845 /* Build configuration list for PBXNativeTarget "WZRippleButton" */;
+			buildPhases = (
+				19743C991A5C0C74009B8845 /* Sources */,
+				19743C9A1A5C0C74009B8845 /* Frameworks */,
+				19743C9B1A5C0C74009B8845 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WZRippleButton;
+			productName = WZRippleButton;
+			productReference = 19743C9D1A5C0C74009B8845 /* WZRippleButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		19743CB51A5C0C74009B8845 /* WZRippleButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19743CC31A5C0C74009B8845 /* Build configuration list for PBXNativeTarget "WZRippleButtonTests" */;
+			buildPhases = (
+				19743CB21A5C0C74009B8845 /* Sources */,
+				19743CB31A5C0C74009B8845 /* Frameworks */,
+				19743CB41A5C0C74009B8845 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				19743CB81A5C0C74009B8845 /* PBXTargetDependency */,
+			);
+			name = WZRippleButtonTests;
+			productName = WZRippleButtonTests;
+			productReference = 19743CB61A5C0C74009B8845 /* WZRippleButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		19743C951A5C0C74009B8845 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = SatanWoo;
+				TargetAttributes = {
+					19743C9C1A5C0C74009B8845 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					19743CB51A5C0C74009B8845 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 19743C9C1A5C0C74009B8845;
+					};
+				};
+			};
+			buildConfigurationList = 19743C981A5C0C74009B8845 /* Build configuration list for PBXProject "WZRippleButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 19743C941A5C0C74009B8845;
+			productRefGroup = 19743C9E1A5C0C74009B8845 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				19743C9C1A5C0C74009B8845 /* WZRippleButton */,
+				19743CB51A5C0C74009B8845 /* WZRippleButtonTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		19743C9B1A5C0C74009B8845 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19743CAC1A5C0C74009B8845 /* Main.storyboard in Resources */,
+				19743CB11A5C0C74009B8845 /* LaunchScreen.xib in Resources */,
+				19743CAE1A5C0C74009B8845 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19743CB41A5C0C74009B8845 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		19743C991A5C0C74009B8845 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19743CA91A5C0C74009B8845 /* ViewController.m in Sources */,
+				19743CC91A5C0DC4009B8845 /* WZFlashButton.m in Sources */,
+				19743CA61A5C0C74009B8845 /* AppDelegate.m in Sources */,
+				19743CA31A5C0C74009B8845 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19743CB21A5C0C74009B8845 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19743CBD1A5C0C74009B8845 /* WZRippleButtonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		19743CB81A5C0C74009B8845 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 19743C9C1A5C0C74009B8845 /* WZRippleButton */;
+			targetProxy = 19743CB71A5C0C74009B8845 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		19743CAA1A5C0C74009B8845 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19743CAB1A5C0C74009B8845 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		19743CAF1A5C0C74009B8845 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19743CB01A5C0C74009B8845 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		19743CBE1A5C0C74009B8845 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		19743CBF1A5C0C74009B8845 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		19743CC11A5C0C74009B8845 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WZRippleButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		19743CC21A5C0C74009B8845 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WZRippleButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		19743CC41A5C0C74009B8845 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WZRippleButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WZRippleButton.app/WZRippleButton";
+			};
+			name = Debug;
+		};
+		19743CC51A5C0C74009B8845 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WZRippleButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WZRippleButton.app/WZRippleButton";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		19743C981A5C0C74009B8845 /* Build configuration list for PBXProject "WZRippleButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19743CBE1A5C0C74009B8845 /* Debug */,
+				19743CBF1A5C0C74009B8845 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19743CC01A5C0C74009B8845 /* Build configuration list for PBXNativeTarget "WZRippleButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19743CC11A5C0C74009B8845 /* Debug */,
+				19743CC21A5C0C74009B8845 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		19743CC31A5C0C74009B8845 /* Build configuration list for PBXNativeTarget "WZRippleButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19743CC41A5C0C74009B8845 /* Debug */,
+				19743CC51A5C0C74009B8845 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 19743C951A5C0C74009B8845 /* Project object */;
+}
