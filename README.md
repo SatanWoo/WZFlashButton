@@ -32,6 +32,7 @@ Build the project and run, you will find there are four different kind of WZFlas
     
 ## Example
 It is very easy to use WZFlashButton while get amazing effect, you can take a look at the following demo
+<img src = "http://xuntaimage.qiniudn.com/WZFlashButton.gif" />
 
 ## License
 MIT License
