@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>65D93785-DD1C-4D5E-ADC7-7785F2BF0DCC</string>
+	<key>IDESourceControlProjectName</key>
+	<string>WZRippleButton</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>B05D8050873E15F9E8452C3F061DA81763F6FBB1</key>
+		<string>https://github.com/SatanWoo/WZFlashButton.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>WZRippleButton.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>B05D8050873E15F9E8452C3F061DA81763F6FBB1</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/SatanWoo/WZFlashButton.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>B05D8050873E15F9E8452C3F061DA81763F6FBB1</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B05D8050873E15F9E8452C3F061DA81763F6FBB1</string>
+			<key>IDESourceControlWCCName</key>
+			<string>WZRippleButton</string>
+		</dict>
+	</array>
+</dict>
+</plist>

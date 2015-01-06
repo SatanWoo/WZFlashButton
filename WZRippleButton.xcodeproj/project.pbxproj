@@ -15,6 +15,7 @@
 		19743CB11A5C0C74009B8845 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 19743CAF1A5C0C74009B8845 /* LaunchScreen.xib */; };
 		19743CBD1A5C0C74009B8845 /* WZRippleButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 19743CBC1A5C0C74009B8845 /* WZRippleButtonTests.m */; };
 		19743CC91A5C0DC4009B8845 /* WZFlashButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 19743CC81A5C0DC4009B8845 /* WZFlashButton.m */; };
+		19743CCB1A5C4CE5009B8845 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 19743CCA1A5C4CE5009B8845 /* background.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 		19743CBC1A5C0C74009B8845 /* WZRippleButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WZRippleButtonTests.m; sourceTree = "<group>"; };
 		19743CC71A5C0DC4009B8845 /* WZFlashButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZFlashButton.h; sourceTree = "<group>"; };
 		19743CC81A5C0DC4009B8845 /* WZFlashButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZFlashButton.m; sourceTree = "<group>"; };
+		19743CCA1A5C4CE5009B8845 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 		19743C9F1A5C0C74009B8845 /* WZRippleButton */ = {
 			isa = PBXGroup;
 			children = (
+				19743CCA1A5C4CE5009B8845 /* background.png */,
 				19743CC61A5C0C7F009B8845 /* WZRippleButton */,
 				19743CA41A5C0C74009B8845 /* AppDelegate.h */,
 				19743CA51A5C0C74009B8845 /* AppDelegate.m */,
@@ -213,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				19743CAC1A5C0C74009B8845 /* Main.storyboard in Resources */,
+				19743CCB1A5C4CE5009B8845 /* background.png in Resources */,
 				19743CB11A5C0C74009B8845 /* LaunchScreen.xib in Resources */,
 				19743CAE1A5C0C74009B8845 /* Images.xcassets in Resources */,
 			);
@@ -426,6 +430,7 @@
 				19743CC21A5C0C74009B8845 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		19743CC31A5C0C74009B8845 /* Build configuration list for PBXNativeTarget "WZRippleButtonTests" */ = {
 			isa = XCConfigurationList;
@@ -434,6 +439,7 @@
 				19743CC51A5C0C74009B8845 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
