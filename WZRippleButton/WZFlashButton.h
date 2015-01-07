@@ -20,7 +20,6 @@ typedef NS_ENUM(NSUInteger, WZFlashButtonType) {
 @property (nonatomic, assign) WZFlashButtonType buttonType;
 @property (nonatomic, copy) WZFlashButtonDidClickBlock clickBlock;
 
-// This will be ignored by inner type button
 @property (nonatomic, strong) UIColor *flashColor;
 
 - (void)setText:(NSString *)text;

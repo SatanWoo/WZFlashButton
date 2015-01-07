@@ -19,8 +19,6 @@
 {
     [super viewDidLoad];
     
-    self.view.backgroundColor = [UIColor whiteColor];
-    
     UIImageView *imageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"background"]];
     [self.view addSubview:imageView];
     
@@ -35,6 +33,7 @@
     // Inner Flash Button with text
     WZFlashButton *innerFlashTextButton = [[WZFlashButton alloc] initWithFrame:CGRectMake(100, 300, 200, 60)];
     innerFlashButton.backgroundColor = [UIColor colorWithRed:153.0f/255.0f green:204.0f/255.0f blue:0 alpha:1.0f];
+    innerFlashButton.flashColor = [UIColor orangeColor];
     [innerFlashButton setText:@"Hello World!" withTextColor:nil];
     [self.view addSubview:innerFlashTextButton];
     
