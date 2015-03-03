@@ -93,7 +93,14 @@ const CGFloat WZFlashInnerCircleInitialRaius = 20;
     }
     
     [self.layer addSublayer:circleShape];
-    [circleShape addAnimation:[self createFlashAnimationWithScale:scale duration:0.5f] forKey:nil];
+    
+    CAAnimationGroup *groupAnimation = [self createFlashAnimationWithScale:scale duration:0.5f];
+
+    /* Use KVC to remove layer to avoid memory leak */
+    [groupAnimation setValue:circleShape forKey:@"circleShaperLayer"];
+    
+    [circleShape addAnimation:groupAnimation forKey:nil];
+    [circleShape setDelegate:self];
     
     if (self.clickBlock) {
         self.clickBlock();
@@ -147,7 +154,10 @@ const CGFloat WZFlashInnerCircleInitialRaius = 20;
 #pragma mark - CAAnimationDelegate
 - (void)animationDidStop:(CAAnimation *)anim finished:(BOOL)flag
 {
-    //NSLog(@"Animation Did Stop");
+    CALayer *layer = [anim valueForKey:@"circleShaperLayer"];
+    if (layer) {
+        [layer removeFromSuperlayer];
+    }
 }
 
 @end
