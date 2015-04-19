@@ -20,19 +20,33 @@ const CGFloat WZFlashInnerCircleInitialRaius = 20;
 {
     self = [super initWithFrame:frame];
     if (self) {
-        UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(didTap:)];
-        [self addGestureRecognizer:tap];
-        
-        self.textLabel = [[UILabel alloc] initWithFrame:self.bounds];
-        self.textLabel.backgroundColor = [UIColor clearColor];
-        [self.textLabel setTextColor:[UIColor whiteColor]];
-        [self.textLabel setTextAlignment:NSTextAlignmentCenter];
-        [self addSubview:self.textLabel];
-        
-        self.backgroundColor = [UIColor grayColor];
-        self.buttonType = WZFlashButtonTypeInner;
+        [self commonInit];
     }
     return self;
+}
+
+- (instancetype)initWithCoder:(NSCoder *)aDecoder
+{
+    self = [super initWithCoder:aDecoder];
+    if (self) {
+        [self commonInit];
+    }
+    return self;
+}
+
+- (void)commonInit
+{
+    UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(didTap:)];
+    [self addGestureRecognizer:tap];
+    
+    self.textLabel = [[UILabel alloc] initWithFrame:self.bounds];
+    self.textLabel.backgroundColor = [UIColor clearColor];
+    [self.textLabel setTextColor:[UIColor whiteColor]];
+    [self.textLabel setTextAlignment:NSTextAlignmentCenter];
+    [self addSubview:self.textLabel];
+    
+    self.backgroundColor = [UIColor grayColor];
+    self.buttonType = WZFlashButtonTypeInner;
 }
 
 #pragma mark - Public
