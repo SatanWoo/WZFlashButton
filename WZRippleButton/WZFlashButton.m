@@ -11,7 +11,6 @@
 const CGFloat WZFlashInnerCircleInitialRaius = 20;
 
 @interface WZFlashButton()
-@property (nonatomic, strong) UILabel *textLabel;
 @end
 
 @implementation WZFlashButton
@@ -116,9 +115,7 @@ const CGFloat WZFlashInnerCircleInitialRaius = 20;
     [circleShape addAnimation:groupAnimation forKey:nil];
     [circleShape setDelegate:self];
     
-    if (self.clickBlock) {
-        self.clickBlock();
-    }
+    
 }
 
 - (CAShapeLayer *)createCircleShapeWithPosition:(CGPoint)position pathRect:(CGRect)rect radius:(CGFloat)radius
@@ -171,6 +168,9 @@ const CGFloat WZFlashInnerCircleInitialRaius = 20;
     CALayer *layer = [anim valueForKey:@"circleShaperLayer"];
     if (layer) {
         [layer removeFromSuperlayer];
+        if (self.clickBlock) {
+            self.clickBlock();
+        }
     }
 }
 
