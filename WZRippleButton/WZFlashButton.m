@@ -11,7 +11,6 @@
 const CGFloat WZFlashInnerCircleInitialRaius = 20;
 
 @interface WZFlashButton()
-@property (nonatomic, strong) UILabel *textLabel;
 @end
 
 @implementation WZFlashButton

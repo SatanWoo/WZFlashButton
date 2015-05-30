@@ -17,6 +17,7 @@ typedef NS_ENUM(NSUInteger, WZFlashButtonType) {
 
 @interface WZFlashButton : UIView
 
+@property (nonatomic, strong) UILabel *textLabel;
 @property (nonatomic, assign) WZFlashButtonType buttonType;
 @property (nonatomic, copy) WZFlashButtonDidClickBlock clickBlock;
 
